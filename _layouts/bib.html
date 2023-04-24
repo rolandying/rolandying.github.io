@@ -226,9 +226,9 @@
           </div>
           {%- endif -%} -->
 
-          <div class="abstract hidden">
-            { href="{{ entry.abstract }}" }
-          </div>
+          <div class="col-6">
+            {% include figure.html path="{{ entry.abstract }}" title="Rickroll" class="embed-responsive embed-responsive-16by9 img-fluid rounded z-depth-1" %}
+        </div>
           {%- endif -%}
 
           
