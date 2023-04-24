@@ -135,11 +135,8 @@
 
           <!-- Links/Buttons -->
           <div class="links">
-          <!-- {%- if entry.abstract %}
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-          {%- endif %} -->
           {%- if entry.abstract %}
-            <a {% include figure.html path="{{ entry.abstract }}" title="Rickroll" class="btn btn-sm z-depth-0" %} role="button">Abs</a>
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
           {%- endif %}
           {%- if entry.arxiv %}
             <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
@@ -221,10 +218,6 @@
 
           {% if entry.abstract -%}
           <!-- Hidden abstract block -->
-          <!-- <div class="abstract hidden">
-            <p>{{ entry.abstract }}</p>
-          </div>
-          {%- endif -%} -->
           <div class="abstract hidden">
             <p>{{ entry.abstract }}</p>
           </div>
