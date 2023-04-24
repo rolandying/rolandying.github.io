@@ -222,20 +222,29 @@
           </div>
           {%- endif %}
 
-          {% if entry.abstract -%}
-          <!-- Hidden abstract block -->
+          <!-- {% if entry.abstract -%}
           <div class="abstract hidden">
             <p>{{ entry.abstract }}</p>
           </div>
-          {%- endif -%}
+          {%- endif -%} -->
 
-          {% if entry.video -%}
-          <!-- Hidden video block -->
+          {% if entry.abstract -%}
           <div class="video hidden">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/Vna5jrJm85I" frameborder="0" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           {%- endif -%}
+          
+          <div class="video hidden">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Vna5jrJm85I" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <!-- {% if entry.video -%}
+          <div class="video hidden">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Vna5jrJm85I" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          {%- endif -%} -->
 
           
           {% if entry.bibtex_show -%}
