@@ -141,6 +141,9 @@
           {%- if entry.abstract %}
             <a  class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
           {%- endif %}
+          {%- if entry.video %}
+            <a  class="video btn btn-sm z-depth-0" role="button">Vid</a>
+          {%- endif %}
           {%- if entry.arxiv %}
             <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
           {%- endif %}
@@ -221,12 +224,14 @@
 
           {% if entry.abstract -%}
           <!-- Hidden abstract block -->
-          <!-- <div class="abstract hidden">
+          <div class="abstract hidden">
             <p>{{ entry.abstract }}</p>
           </div>
-          {%- endif -%} -->
-          <div class="abstract hidden">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Zhe_R7O7z6M" frameborder="0" 
+          {%- endif -%}
+
+          {% if entry.video -%}
+          <div class="video hidden">
+            <iframe width="560" height="315" src="https://www.youtube.com/watch?v=Vna5jrJm85I" frameborder="0" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           
