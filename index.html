@@ -138,21 +138,19 @@
           <div class="profile float-right">
 
               <figure>
-
-  <picture>
+  <!-- If file is mp4 use video container -->
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/prof_pic-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/prof_pic-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/prof_pic-1400.webp"></source>
-    
+      <!-- Display image -->
+        <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/prof_pic-480.webp"></source>
+        <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/prof_pic-800.webp"></source>
+        <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/prof_pic-1400.webp"></source>
+        
 
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/prof_pic.jpg" class="img-fluid z-depth-1 rounded-circle" width="auto" height="auto" alt="prof_pic.jpg" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
+      <!-- Fallback to the original file -->
+      <img src="/assets/img/prof_pic.jpg" class="img-fluid z-depth-1 rounded-circle" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  
 
 </figure>
-
             <div class="address">
               <p>6618 Lappeenranta Campus</p> <p>Yliopistonkatu 34</p> <p>53850 Lappeenranta, Finland</p>
 
