@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.lut.fi/en'>Lut</a>. Address. Contacts. Moto. Etc.
+subtitle: junior researcher @ <a href='https://www.lut.fi/en/research-groups/laboratory-intelligent-machines'>Lab of Intelligent Machines</a>, <a href='https://www.lut.fi/en'>Lut University</a>. 
 
 profile:
   align: right
@@ -18,6 +18,7 @@ latest_posts: true  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+I'm currently a doctoral student and junior researcher at [LUT](https://www.lut.fi/en) under the supervising of [Prof. ](https://www.lut.fi/en)
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
