@@ -135,9 +135,9 @@
 
           <!-- Links/Buttons -->
           <div class="links">
-          <!-- {%- if entry.abstract %}
+          {%- if entry.abstract %}
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-          {%- endif %} -->
+          {%- endif %}
           {%- if entry.video %}
             <a class="abstract btn btn-sm z-depth-0" role="button">Vid</a>
           {%- endif %}
@@ -222,12 +222,14 @@
           </div>
           {%- endif %}
 
-          <!-- {% if entry.abstract -%} -->
-          <!-- abstract bibtex block -->
-          <!-- <div class="abstract hidden">
+
+           {% if entry.abstract -%} 
+          <div class="abstract hidden">
             <p>{{ entry.abstract }}</p>
           </div>
-          {%- endif -%} -->
+          {%- endif -%}
+
+
           {% if entry.video -%}
           <div class="abstract hidden">
             <iframe width="500" height="320" src="https://www.youtube.com/embed/Vna5jrJm85I" frameborder="0" 
