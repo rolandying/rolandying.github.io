@@ -551,7 +551,7 @@ footer.sticky-bottom {
   padding-right: 1rem;
 }
 .publications ol.bibliography li .abbr abbr a {
-  color: rgb(255, 255, 255);
+  color: white;
 }
 .publications ol.bibliography li .abbr abbr a:hover {
   text-decoration: none;
