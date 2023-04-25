@@ -151,8 +151,7 @@ blockquote {
   font-size: 0.875rem;
 
   a {
-    //color: inherit;
-    color: var(--global-theme-color);
+    color: rgb(215, 16, 189);
     &:hover {
       color: var(--global-theme-color);
       text-decoration: none;
