@@ -223,7 +223,7 @@ blockquote {
   font-size: 0.875rem;
 }
 .post-description a {
-  color: rgb(215, 16, 189);
+  color: inherit;
 }
 .post-description a:hover {
   color: var(--global-theme-color);
