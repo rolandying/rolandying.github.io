@@ -582,7 +582,8 @@ footer.sticky-bottom {
           padding-right: 1rem;
 
           a {
-            color: white;
+            color: var(--global-theme-color);
+            //color: white;
 
             &:hover {
               text-decoration: none;
