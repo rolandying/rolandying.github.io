@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://rolandying.github.io/sitemap.xml
