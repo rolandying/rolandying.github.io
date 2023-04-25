@@ -13,15 +13,13 @@ profile:
     <p>Yliopistonkatu 34</p>
     <p>53850 Lappeenranta, Finland</p>
 
-news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+latest_posts: false  # includes a list of the newest posts
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 I'm currently a doctoral student and junior researcher at [LUT](https://www.lut.fi/en) under the supervising of [Prof. Heikki Handroos](https://www.lut.fi/en/profiles/heikki-handroos) and [Prof. Huapeng Wu](https://www.lut.fi/en/profiles/huapeng-wu). Our team mainly focusing on the `Remote Handling Maintenance System` inside the nuclear fusion reactor. My primary scholarly fascination lies in facilitating autonomous robotic operation functions under challenging environments, such as the `robotic grasping`, `peg-in-hole assembly`, `robotic pick-and-place` and so on. 
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Meanwhile, I'm entering a Double Doctoral Degree program between [LUT](https://www.lut.fi/en) and [USTC](https://en.ustc.edu.cn/), which means I'm also a doctoral student in [USTC](https://en.ustc.edu.cn/).If all goes well, I will get my PhD from [USTC](https://en.ustc.edu.cn/) and [LUT](https://www.lut.fi/en) at the end of this June and the end of this year, respectively.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+During my time at USTC, I was involved in research on `Automated Construction of High-precision Maps` for `Autopilot`. You can check my [publications page](/publications/) or [project page](/projects/) for more details.
