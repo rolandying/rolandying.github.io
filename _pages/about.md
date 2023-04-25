@@ -18,7 +18,7 @@ latest_posts: true  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-I'm currently a doctoral student and junior researcher at [LUT](https://www.lut.fi/en) under the supervising of [Prof. Heikki Handroos](https://www.lut.fi/en/profiles/heikki-handroos) and [Prof. Huapeng Wu](https://www.lut.fi/en/profiles/huapeng-wu). Our team mainly focusing on the `Remote Handling Maintenance System` inside the nuclear fusion reactor. My personal research interests are the Robotic Automation Operations under challenging environments, such as the `robotic grasping`, `peg-in-hole assembly`, `robotic pick-and-place` and so on. 
+I'm currently a doctoral student and junior researcher at [LUT](https://www.lut.fi/en) under the supervising of [Prof. Heikki Handroos](https://www.lut.fi/en/profiles/heikki-handroos) and [Prof. Huapeng Wu](https://www.lut.fi/en/profiles/huapeng-wu). Our team mainly focusing on the `Remote Handling Maintenance System` inside the nuclear fusion reactor. My primary scholarly fascination lies in facilitating autonomous robotic operation functions under challenging environments, such as the `robotic grasping`, `peg-in-hole assembly`, `robotic pick-and-place` and so on. 
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
