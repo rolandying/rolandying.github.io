@@ -1,6 +1,6 @@
 ---
 layout: page
-title: High-precision Map Construction for Autopilot
+title: FusionLane
 description: a project with a background image
 img: assets/img/p1.jpg
 importance: 1
