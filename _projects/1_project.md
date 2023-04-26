@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 1
+title: High-precision Map Construction for Autopilot
 description: a project with a background image
 img: assets/img/p1.jpg
 importance: 1
