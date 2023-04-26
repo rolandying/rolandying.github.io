@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Junior Researcher @ <a href='https://www.lut.fi/en/research-groups/laboratory-intelligent-machines'>Lab of Intelligent Machines</a>, <a href='https://www.lut.fi/en'>Lut University</a>. 
+subtitle: Junior Researcher @ <a href='https://www.lut.fi/en/research-groups/laboratory-intelligent-machines'>Lab of Intelligent Machines</a>, <a href='https://www.lut.fi/en'>Lappeenranta-Lahti University of Technology (LUT)</a>. 
 
 profile:
   align: right
