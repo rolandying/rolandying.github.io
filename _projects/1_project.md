@@ -10,8 +10,8 @@ category: research
 HIGH-PRECISION could not only provide high-precision positioning based on map matching, but also disclose complex information about roads and pavements as a priori knowledge for unmanned vehicles, for example, lane limits, slope, curvature, heading, etc. High-precision maps can be seen as a complementary element of the perception module of unmanned vehicles, and they help unmanned vehicles focus on other tasks such as detection and tracking of moving obstacles. To enable autonomous operation, the high-precision lane level map must therefore contain accurate lane marking information.
 
 
-<div class="row align-items-center justify-content-sm-center width:50%">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0 width:50%">
         {% include figure.html path="assets/img/p1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -65,10 +65,7 @@ Here's the code for the last row of images above:
 
 You can display .mp4 files and embeded YouTube links as well
 
-<div class="row">
-    <div class="col-6">
-        {% include figure.html path="assets/img/RR.mp4" title="Rickroll" class="video-fluid rounded z-depth-1" controls="true" %}
-    </div>
+<div class="row justify-content-sm-center">
     <div class="col-6">
         {% include figure.html path="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Rickroll" class="embed-responsive embed-responsive-16by9 img-fluid rounded z-depth-1" %}
     </div>
