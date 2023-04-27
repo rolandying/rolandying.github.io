@@ -18,13 +18,17 @@ HIGH-PRECISION could not only provide high-precision positioning based on map ma
 <div class="caption">
     Compared to camera data, which suffers from lower accuracy and distortion-related issues, LiDAR point cloud data can better fulfill precision requirements.
 </div>
+
+The picture above is the top view of two consecutive frames of data in the KITTI dataset collected by a camera (upper row) and LIDAR (lower row, we convert the reflection intensity information into RGB information). As can be seen, the distortion of the point cloud data is significantly smaller. Meanwhile, the  high-precision maps does not require real-time online construction. Thus, We first use [Deeplab](https://arxiv.org/abs/1706.05587v3) to semantically segment the top view of the camera, and use its segmentation results as input to assist in the semantic segmentation of the point cloud data. Our network structure is illustrate as blow.
+
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/publication_preview/FL.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Network structure of FusionLane.
 </div>
 
 You can also put regular text between your rows of images.
