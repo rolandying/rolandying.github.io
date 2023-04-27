@@ -2,7 +2,7 @@
 layout: page
 title: FusionLane
 description: High-precision map construction for Autopilot
-img: assets/img/p1.jpg
+img: assets/img/publication_preview/FL.jpg
 importance: 1
 category: research
 ---
@@ -31,9 +31,7 @@ The picture above is the top view of two consecutive frames of data in the KITTI
     Network structure of FusionLane.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+More details could be found in the [paper](/publications/).
 
 
 <div class="row justify-content-sm-center">
@@ -67,13 +65,3 @@ Here's the code for the last row of images above:
 ```
 {% endraw %}
 
-You can display .mp4 files and embeded YouTube links as well
-
-<div class="row justify-content-sm-center">
-    <div class="col-6">
-        {% include figure.html path="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Rickroll" class="embed-responsive embed-responsive-16by9 img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-	Never click on unfamiliar links.
-</div>
