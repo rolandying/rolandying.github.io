@@ -1,10 +1,10 @@
 ---
 layout: page
 title: FusionLane
-description: a project with a background image
+description: High-precision map construction for Autopilot
 img: assets/img/p1.jpg
 importance: 1
-category: work
+category: research
 ---
 
 Every project has a beautiful feature showcase page.
