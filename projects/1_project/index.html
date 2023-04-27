@@ -137,25 +137,28 @@
 <div class="caption">
     Compared to camera data, which suffers from lower accuracy and distortion-related issues, LiDAR point cloud data can better fulfill precision requirements.
 </div>
+
+<p>The picture above is the top view of two consecutive frames of data in the KITTI dataset collected by a camera (upper row) and LIDAR (lower row, we convert the reflection intensity information into RGB information). As can be seen, the distortion of the point cloud data is significantly smaller. Meanwhile, the  high-precision maps does not require real-time online construction. Thus, We first use <a href="https://arxiv.org/abs/1706.05587v3" rel="external nofollow noopener" target="_blank">Deeplab</a> to semantically segment the top view of the camera, and use its segmentation results as input to assist in the semantic segmentation of the point cloud data. Our network structure is illustrate as blow.</p>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <figure>
   <!-- If file is mp4 use video container -->
     
       <!-- Display image -->
-        <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/5-480.webp"></source>
-        <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/5-800.webp"></source>
-        <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/5-1400.webp"></source>
+        <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/FL-480.webp"></source>
+        <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/FL-800.webp"></source>
+        <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/FL-1400.webp"></source>
         
 
       <!-- Fallback to the original file -->
-      <img src="/assets/img/5.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+      <img src="/assets/img/publication_preview/FL.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
 </figure>
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Network structure of FusionLane.
 </div>
 
 <p>You can also put regular text between your rows of images.
