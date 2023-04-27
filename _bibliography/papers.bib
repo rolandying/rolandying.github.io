@@ -10,6 +10,7 @@
   pages={7573},
   year={2022},
   publisher={MDPI},
+  abstract={Although deep neural network (DNN)-based robot grasping has come a long way, the uncertainty of predicted results has prevented DNN-based approaches from meeting the stringent requirements of some industrial scenarios. To prevent these uncertainties from affecting the behavior of the robot, we break down the whole process into instance segmentation, clustering and planar extraction, which means we add some traditional approaches between the output of the instance segmentation network and the final control decision. We have experimented with challenging environments, and the results show that our approach can cope well with the challenging environment and achieve more stable and superior results than end-to-end grasping networks.},
   preview={grasping.gif}
 }
 
@@ -21,7 +22,9 @@
   number={7},
   pages={4487},
   year={2023},
+  abstract={Robotic pick-and-place represents a nascent but swiftly evolving field in automation research. Most existing research relies on three-dimensional (3D) observations obtained directly from the 3D sensor or recovered by the two-dimensional (2D) camera from multiple perspectives. In this paper, we introduce an end-to-end pick-and-place neural network that solely leverages simple yet readily accessible data, namely monocular camera and forward kinematics, for fusion applications. Additionally, our approach relies on the deep reinforcement learning (DRL) algorithm to facilitate robots in comprehending and completing tasks. The entire process is data-driven, devoid of any artificially designed task sessions, which imbues our approach with enhanced flexibility and versatility. The proposed method exhibits excellent performance in our experiment.},
   publisher={MDPI},
+  code={https://github.com/rolandying/Monocular-based-pick-and-place},
   preview={pp.jpg}
 }
 
@@ -33,7 +36,9 @@
   number={2},
   pages={1543--1553},
   year={2020},
+  abstract={Effective semantic segmentation of lane marking is crucial for construction of high-precision lane level maps. In recent years, a number of different methods for semantic segmentation of images have been proposed. These methods concentrate mainly on analysis of camera images, due to limitations with the sensor itself, and thus far, the accurate three-dimensional spatial position of the lane marking could not be obtained, which hinders lane level map construction.This article proposes a lane marking semantic segmentation method based on LIDAR and camera image fusion using a deep neural network. In the approach, the object of the semantic segmentation is a bird’s-eye view converted from a LIDAR points cloud instead of an image captured by a camera. First, the DeepLabV3+ network image segmentation method is used to segment the image captured by the camera, and the segmentation result is then merged with the point clouds collected by the LIDAR as the input of the proposed network. A long short-term memory (LSTM) structure is added to the neural network to assist the network in semantic segmentation of lane markings by enabling use of time series information. Experiments on datasets containing more than 14,000 images, which were manually labeled and expanded, showed that the proposed method provides accurate semantic segmentation of the bird’s-eye view LIDAR points cloud. Consequently, automation of high-precision map construction can be significantly improved. Our code is available at https://github.com/rolandying/FusionLane.},
   publisher={IEEE},
+  code={https://github.com/rolandying/FusionLane},
   preview={FL.jpg}
 }
 
