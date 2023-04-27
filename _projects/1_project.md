@@ -10,8 +10,8 @@ category: research
 HIGH-PRECISION could not only provide high-precision positioning based on map matching, but also disclose complex information about roads and pavements as a priori knowledge for unmanned vehicles, for example, lane limits, slope, curvature, heading, etc. High-precision maps can be seen as a complementary element of the perception module of unmanned vehicles, and they help unmanned vehicles focus on other tasks such as detection and tracking of moving obstacles. To enable autonomous operation, the high-precision lane level map must therefore contain accurate lane marking information.
 
 
-<div class="row">
-    <div class="col-sm-6 mt-3 justify-content-sm-center  width:50%">
+<div class="row align-items-center justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0 width:50%">
         {% include figure.html path="assets/img/p1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -19,10 +19,8 @@ HIGH-PRECISION could not only provide high-precision positioning based on map ma
     Compared to camera data, which suffers from lower accuracy and distortion-related issues, LiDAR point cloud data can better fulfill precision requirements.
 </div>
 <div class="row">
-    <div class="width:50%">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
     </div>
 </div>
 <div class="caption">
