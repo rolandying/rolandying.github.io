@@ -11,7 +11,7 @@ HIGH-PRECISION could not only provide high-precision positioning based on map ma
 
 
 <div class="row">
-    <div class="col-sm-6 mt-3 mt-md-0  width:50%">
+    <div class="col-sm-6 mt-3 mt-md-center  width:50%">
         {% include figure.html path="assets/img/p1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
