@@ -1,9 +1,8 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: Robotic pick-and-place
+description: A monocular camera-based robotic pick-and-place method
+img: assets/img/p3.jpg
 importance: 3
 category: LUT
 ---
