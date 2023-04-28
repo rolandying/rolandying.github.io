@@ -20,10 +20,10 @@ The environment within the reactor's vacuum chamber is considerably more challen
     </div>
 </div>
 <div class="caption">
-    The compare between camera and LIDAR sensor on smooth metallic object.
+    The compare between the observation data of LIDAR(left) and camera(right) sensor on smooth metallic object.
 </div>
 
-My specific research focus comprises three components: robotic grasping, high-precision rigid peg-in-hole assembly.
+My specific research focus comprises two components: robotic grasping and high-precision rigid peg-in-hole assembly.
 
 These investigations were conducted in environments that closely mimic the highly chal-lenging conditions of a reactor's vacuum chamber. By employing multi-sensor fusion and leveraging deep reinforcement learning, we ultimately succeeded in effectively accomplish-ing the related tasks.
 
