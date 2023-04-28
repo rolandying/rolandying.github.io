@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Peg-in-hole assembly
-description: a project with a background image
+description: Robotic grasping & high-precision peg-in-hole assembly task
 img: assets/img/3.jpg
 importance: 2
-category: work
+category: research
 ---
 
 Every project has a beautiful feature showcase page.
