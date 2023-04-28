@@ -45,7 +45,7 @@ Following the robotic grasping task, we delved into high-precision rigid peg-in-
 	The Robotic Grasping and peg-in-hole assembly experiment.
 </div>
 
-More details could be found in the Corresponding publlications:
+More details could be found in the corresponding publlications:
 
 1.[RGB-D-Based Robotic Grasping in Fusion Application Environments](https://www.mdpi.com/2076-3417/12/15/7573)
 
