@@ -2,7 +2,7 @@
 layout: page
 title: Peg-in-hole assembly
 description: Robotic grasping & high-precision peg-in-hole assembly task
-img: assets/img/3.jpg
+img: assets/img/p2.jpg
 importance: 2
 category: LUT
 ---
