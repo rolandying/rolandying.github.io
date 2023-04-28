@@ -12,7 +12,7 @@ category: LUT
 Throughout the previous researches, we experienced the drawbacks of reinforcement learning, such as the potential collision risks and time-consuming training. These insights prompted us to leverage simulation environments to accelerate agent training in our subsequent robotic pick-and-place research. In this research, we capitalized on the ability of reinforcement learning to optimize temporal differences (TD) error and recover three-dimensional spatial information from two-dimensional images. This allowed us to achieve robotic pick-and-place operations using only a monocular camera. 
 
 <div class="row">
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm-5 mt-3 mt-md-0">
         {% include figure.html path="assets/img/p3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-5 mt-3 mt-md-0">
