@@ -11,6 +11,18 @@ Since 2020, I have been pursuing a doctoral degree at the Intelligent Machinery 
 
 The environment within the reactor's vacuum chamber is considerably more challenging than ordinary settings, primarily due to its construction from smooth metallic materials. Depth cameras or LiDAR struggle to provide accurate observations in such conditions. Consequently, we need to implement various automated maintenance operations in the absence of reliable three-dimensional data.
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/pj21.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/pj22.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The compare between camera and LIDAR sensor on smooth metallic object.
+</div>
+
 My specific research focus comprises three components: robotic grasping, high-precision rigid peg-in-hole assembly.
 
 These investigations were conducted in environments that closely mimic the highly chal-lenging conditions of a reactor's vacuum chamber. By employing multi-sensor fusion and leveraging deep reinforcement learning, we ultimately succeeded in effectively accomplish-ing the related tasks.
