@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Robotic grasping & Peg-in-hole assembly
+title: Peg-in-hole assembly
 description: a project with a background image
 img: assets/img/3.jpg
 importance: 2
