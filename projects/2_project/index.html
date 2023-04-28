@@ -155,13 +155,30 @@
     The compare between the observation data of LIDAR(left) and camera(right) sensor on smooth metallic object.
 </div>
 
-<p>My specific research focus comprises two components: robotic grasping and high-precision rigid peg-in-hole assembly.</p>
+<p>My specific research focus comprises two components: robotic grasping and high-precision rigid peg-in-hole assembly.These investigations were conducted in environments that closely mimic the highly challenging conditions of a reactor’s vacuum chamber. By employing multi-sensor fusion and leveraging deep reinforcement learning, we ultimately succeeded in effectively accomplishing the related tasks.In my first research task, robotic grasping, we adopted a conservative yet reliable ap-proach by combining deep learning and traditional computer vision algorithms. This strate-gy effectively mitigated the propagation of uncertainty from three-dimensional sensor ob-servations to control commands, resulting in stable and satisfactory grasping outcomes.</p>
 
-<p>These investigations were conducted in environments that closely mimic the highly chal-lenging conditions of a reactor’s vacuum chamber. By employing multi-sensor fusion and leveraging deep reinforcement learning, we ultimately succeeded in effectively accomplish-ing the related tasks.</p>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+  <!-- If file is mp4 use video container -->
+    
+      <!-- Display image -->
+        <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/pj23-480.webp"></source>
+        <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/pj23-800.webp"></source>
+        <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/pj23-1400.webp"></source>
+        
 
-<p>In my first research task, robotic grasping, we adopted a conservative yet reliable ap-proach by combining deep learning and traditional computer vision algorithms. This strate-gy effectively mitigated the propagation of uncertainty from three-dimensional sensor ob-servations to control commands, resulting in stable and satisfactory grasping outcomes.</p>
+      <!-- Fallback to the original file -->
+      <img src="/assets/img/pj23.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
-<p>Following the robotic grasping task, we delved into high-precision rigid peg-in-hole assem-bly. In this study, the gap between the axis and hole was less than 0.1 millimeters (even lower than the repeatability accuracy of the UR10 robot we utilized), with a certain degree of randomness in the relative position between the end-effector and the grasped axis. To address these challenges, we fused data from a monocular camera and force sensors, employing deep reinforcement learning to train the robotic arm to execute assembly oper-ations in a manner akin to human hand-eye coordination. This approach ultimately yielded excellent results.</p>
+</figure>
+    </div>
+</div>
+<div class="caption">
+    The strucure of muti-sensor based peg-in-hole assembly method.
+</div>
+
+<p>Following the robotic grasping task, we delved into high-precision rigid peg-in-hole assembly. In this study, the gap between the axis and hole was less than 0.1 millimeters (even lower than the repeatability accuracy of the UR10 robot we utilized), with a certain degree of randomness in the relative position between the end-effector and the grasped axis. To address these challenges, we fused data from a monocular camera and force sensors, employing deep reinforcement learning to train the robotic arm to execute assembly operations in a manner akin to human hand-eye coordination. This approach ultimately yielded excellent results.</p>
 
           </article>
 
