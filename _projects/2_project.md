@@ -34,4 +34,13 @@ My specific research focus comprises two components: robotic grasping and high-p
     The strucure of muti-sensor based peg-in-hole assembly method.
 </div>
 
-Following the robotic grasping task, we delved into high-precision rigid peg-in-hole assembly. In this study, the gap between the axis and hole was less than 0.1 millimeters (even lower than the repeatability accuracy of the UR10 robot we utilized), with a certain degree of randomness in the relative position between the end-effector and the grasped axis. To address these challenges, we fused data from a monocular camera and force sensors, employing deep reinforcement learning to train the robotic arm to execute assembly operations in a manner akin to human hand-eye coordination. This approach ultimately yielded excellent results.
+Following the robotic grasping task, we delved into high-precision rigid peg-in-hole assembly. In this study, the gap between the axis and hole was less than 0.1 millimeters (even lower than the repeatability accuracy of the UR10 robot we utilized), with a certain degree of randomness in the relative position between the end-effector and the grasped axis. To address these challenges, we fused data from a monocular camera and force sensors, employing deep reinforcement learning to train the robotic arm to execute assembly operations in a manner akin to human hand-eye coordination. This approach ultimately yielded excellent results. Some of the experiments is shown in the video.
+
+<div class="row justify-content-sm-center">
+    <div class="col-9">
+        {% include figure.html path="https://www.youtube.com/embed/Vna5jrJm85I" title="Peg-in-hole" class="embed-responsive embed-responsive-16by9 img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+	The Robotic Grasping and peg-in-hole assembly experiment.
+</div>
