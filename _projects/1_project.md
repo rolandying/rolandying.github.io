@@ -31,5 +31,19 @@ The picture above is the top view of two consecutive frames of data in the KITTI
     Network structure of FusionLane.
 </div>
 
-This method for effective semantic segmentation of the LIDAR points cloud bird’s eye view (LBEV) by introducing classification information of visual images was first proposed by this study. Experiments show that our method could achieve accurate and  high-quality results for sparse LBEV semantic segmentation. More details could be found in the [paper](/publications/).
+This method for effective semantic segmentation of the LIDAR points cloud bird’s eye view (LBEV) by introducing classification information of visual images was first proposed by this study. Experiments show that our method could achieve accurate and  high-quality results for sparse LBEV semantic segmentation, just as shown in the following figure.  
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/pj141.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/pj142.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The input LBEV(left) and the output segmentation result(right).
+</div>
+
+More details could be found in the [paper](/publications/).
 
