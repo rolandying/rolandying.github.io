@@ -45,5 +45,5 @@ This method for effective semantic segmentation of the LIDAR points cloud birdâ€
     The input LBEV(left) and the output segmentation result(right).
 </div>
 
-More details could be found in the [paper](/publications/).
+More details could be found in the paper: [Fusionlane: Multi-sensor fusion for lane marking semantic segmentation using deep neural networks](/publications/).
 
