@@ -5,7 +5,7 @@ permalink: /projects/
 description: The research projects I involved since the beginning of my doctoral career.
 nav: true
 nav_order: 2
-display_categories: [research, work]
+display_categories: [USTC, LUT]
 horizontal: false
 ---
 

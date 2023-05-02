@@ -2,79 +2,52 @@
 layout: page
 title: Peg-in-hole assembly
 description: Robotic grasping & high-precision peg-in-hole assembly task
-img: assets/img/3.jpg
+img: assets/img/p2.jpg
 importance: 2
-category: research
+category: LUT
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Since 2020, I have been pursuing a doctoral degree at the Intelligent Machinery Laborato-ry within the Department of Mechanical Engineering at LUT University in Finland. My su-pervisor is Prof. Huapeng Wu.We are involved in the overarching research initiative known as ITER (International Ther-monuclear Experimental Reactor). Our primary responsibility lies in the remote handling maintenance operations within the reactor's vacuum chamber.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The environment within the reactor's vacuum chamber is considerably more challenging than ordinary settings, primarily due to its construction from smooth metallic materials. Depth cameras or LiDAR struggle to provide accurate observations in such conditions. Consequently, we need to implement various automated maintenance operations in the absence of reliable three-dimensional data.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/pj21.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/pj22.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    The compare between the observation data of LIDAR(left) and camera(right) sensor on smooth metallic object.
 </div>
+
+My specific research focus comprises two components: robotic grasping and high-precision rigid peg-in-hole assembly.These investigations were conducted in environments that closely mimic the highly challenging conditions of a reactor's vacuum chamber. By employing multi-sensor fusion and leveraging deep reinforcement learning, we ultimately succeeded in effectively accomplishing the related tasks.In my first research task, robotic grasping, we adopted a conservative yet reliable ap-proach by combining deep learning and traditional computer vision algorithms. This strate-gy effectively mitigated the propagation of uncertainty from three-dimensional sensor ob-servations to control commands, resulting in stable and satisfactory grasping outcomes.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/pj23.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    The strucure of muti-sensor based peg-in-hole assembly method.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
+Following the robotic grasping task, we delved into high-precision rigid peg-in-hole assembly. In this study, the gap between the axis and hole was less than 0.1 millimeters (even lower than the repeatability accuracy of the UR10 robot we utilized), with a certain degree of randomness in the relative position between the end-effector and the grasped axis. To address these challenges, we fused data from a monocular camera and force sensors, employing deep reinforcement learning to train the robotic arm to execute assembly operations in a manner akin to human hand-eye coordination. This approach ultimately yielded excellent results. Some of the experiments is shown in the video.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-10">
+        {% include figure.html path="https://www.youtube.com/embed/Vna5jrJm85I" title="Peg-in-hole" class="embed-responsive embed-responsive-16by9 img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+	The Robotic Grasping and peg-in-hole assembly experiment.
 </div>
 
+More details could be found in the corresponding publlications:
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+1.[RGB-D-Based Robotic Grasping in Fusion Application Environments](https://www.mdpi.com/2076-3417/12/15/7573)
 
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+2.[Mastering Autonomous Assembly in Fusion Application with Learning-by-doing: a Peg-in-hole Study](https://arxiv.org/abs/2208.11737)
+

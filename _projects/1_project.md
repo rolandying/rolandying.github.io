@@ -4,7 +4,7 @@ title: FusionLane
 description: High-precision map construction for Autopilot
 img: assets/img/publication_preview/FL.jpg
 importance: 1
-category: research
+category: USTC
 ---
 
 High-precision map could not only provide high-precision positioning based on map matching, but also disclose complex information about roads and pavements as a priori knowledge for unmanned vehicles, for example, lane limits, slope, curvature, heading, etc. High-precision maps can be seen as a complementary element of the perception module of unmanned vehicles, and they help unmanned vehicles focus on other tasks such as detection and tracking of moving obstacles. To enable autonomous operation, the high-precision lane level map must therefore contain accurate lane marking information.
@@ -31,5 +31,19 @@ The picture above is the top view of two consecutive frames of data in the KITTI
     Network structure of FusionLane.
 </div>
 
-This method for effective semantic segmentation of the LIDAR points cloud bird’s eye view (LBEV) by introducing classification information of visual images was first proposed by this study. Experiments show that our method could achieve accurate and  high-quality results for sparse LBEV semantic segmentation. More details could be found in the [paper](/publications/).
+This method for effective semantic segmentation of the LIDAR points cloud bird’s eye view (LBEV) by introducing classification information of visual images was first proposed by this study. Experiments show that our method could achieve accurate and  high-quality results for sparse LBEV semantic segmentation, just as shown in the following figure.  
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/pj142.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/pj143.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The input LBEV(left) and the output segmentation result(right).
+</div>
+
+More details could be found in the paper: [Fusionlane: Multi-sensor fusion for lane marking semantic segmentation using deep neural networks](/publications/).
 
