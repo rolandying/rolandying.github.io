@@ -20,6 +20,6 @@ social: true  # includes social icons at the bottom of the page
 ---
 Hi, I'm Ruochen Yin (殷若尘 in Chinese), I'm currently a doctoral student and junior researcher at [LUT](https://www.lut.fi/en) under the supervising of [Prof. Heikki Handroos](https://www.lut.fi/en/profiles/heikki-handroos) and [Prof. Huapeng Wu](https://www.lut.fi/en/profiles/huapeng-wu). Our team mainly focusing on the `Remote Handling Maintenance System` inside the nuclear fusion reactor. My primary scholarly fascination lies in facilitating autonomous robotic operation functions under challenging environments, such as the `robotic grasping`, `peg-in-hole assembly`, `robotic pick-and-place` and so on. 
 
-Meanwhile, I'm entering a Double Doctoral Degree program between [LUT](https://www.lut.fi/en) and [USTC](https://en.ustc.edu.cn/), which means I'm also a doctoral student in USTC. I received my doctoral degree from USTC in June 2023 and if all goes well I will receive another doctoral degree from LUT at the end of 2023.
+Meanwhile, I'm entering a Double Doctoral Degree program between [LUT](https://www.lut.fi/en) and [USTC](https://en.ustc.edu.cn/), which means I'm also a doctoral student in USTC. I received my doctoral degree from USTC in June 2023 and another doctoral degree from LUT in November, 2023.
 
 During my time at USTC, I was involved in research on `Automated Construction of High-precision Maps` for `Autopilot`. You can check my [publications page](/publications/) and [project page](/projects/) for more details.
