@@ -38,7 +38,7 @@ Following the robotic grasping task, we delved into high-precision rigid peg-in-
 
 <div class="row justify-content-sm-center">
     <div class="col-10">
-        {% include figure.html path="https://www.youtube.com/embed/Vna5jrJm85I" title="Peg-in-hole" class="embed-responsive embed-responsive-16by9 img-fluid rounded z-depth-1" %}
+        {% include figure.html path="https://www.youtube.com/embed/GautzSyT1lE" title="Peg-in-hole" class="embed-responsive embed-responsive-16by9 img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
