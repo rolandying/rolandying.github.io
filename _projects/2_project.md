@@ -7,7 +7,7 @@ importance: 2
 category: LUT
 ---
 
-Since 2020, I have been pursuing a doctoral degree at the Intelligent Machinery Laborato-ry within the Department of Mechanical Engineering at LUT University in Finland. My su-pervisors are Prof. Heikki Handroos and Prof. Huapeng Wu. We are involved in the overarching research initiative known as ITER (International Ther-monuclear Experimental Reactor). Our primary responsibility lies in the remote handling maintenance operations within the reactor's vacuum chamber.
+Since 2020, I have been pursuing a doctoral degree at the Intelligent Machinery Laborato-ry within the Department of Mechanical Engineering at LUT University in Finland. My supervisors are Prof. Heikki Handroos and Prof. Huapeng Wu. We are involved in the overarching research initiative known as ITER (International Ther-monuclear Experimental Reactor). Our primary responsibility lies in the remote handling maintenance operations within the reactor's vacuum chamber.
 
 The environment within the reactor's vacuum chamber is considerably more challenging than ordinary settings, primarily due to its construction from smooth metallic materials. Depth cameras or LiDAR struggle to provide accurate observations in such conditions. Consequently, we need to implement various automated maintenance operations in the absence of reliable three-dimensional data.
 
